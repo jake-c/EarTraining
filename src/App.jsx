@@ -1,10 +1,16 @@
-import SideBarItem from "./components/SideBarItem";
+// import SideBarItem from "./components/SideBarItem";
 import SideBar from "./components/SideBar";
+import IntervalSelectorWheel from "./components/IntervalSelectorWheel";
 const App = () => {
   return (
   <>
-    <SideBar/>
-
+    <div className="app-container">
+      <SideBar/>
+      <div className="main-content">
+        
+        <IntervalSelectorWheel/>
+      </div>
+    </div>  
   </>
   )
 }

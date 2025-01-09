@@ -1,14 +1,22 @@
-/* .sidebar-button {
-    display: flex;
-    align-items: center;
-    height
-} */
+
 
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
   font-family: 'Poppins', sans-serif; /* Ensure the body takes the full height of the viewport */
+}
+
+.app-container {
+  display: flex;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
 }
 
 
@@ -26,7 +34,7 @@ html, body {
   font-size: 20px;
   font-weight: 700;
   color: white;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   margin: 48px 0 72px 0;
 }
 
@@ -36,8 +44,9 @@ html, body {
   height: 72px;
   display: flex;
   align-items: center;
-  text-decoration: none;
-  border: 2px solid red;
+  position: relative;
+  /* text-decoration: none; */
+  /* border: 2px solid red; */
   /* padding: 0 20px; */
   
 }
@@ -50,15 +59,59 @@ html, body {
   /* height: 100%;
   width: 100%; */
   text-decoration: none;
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   margin-left: 80px;
+}
+
+.sidebar-item-link.active {
+  color: white;
+}
+
+.sidebar-item-link.inactive {
+  color: #C2C0FF;
 }
 
 .sidebar-item-text {
   font-weight: 500;
   font-size: 14px;
+  /* border: 2px solid lime; */
 }
 
 .sidebar-item-icon {
+  display: flex;
   margin-right: 16px;
+  /* border: 2px solid lime; */
+}
+
+.sidebar-item-indicator {
+  height: 100%;
+  width: 4px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  background-color: white;
+  left: 0;
+  position: absolute;
+}
+
+/* button css */
+
+.note-button {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+/* Wheel styles*/
+
+.interval-wheel-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  /* background-color: #C2C0FF; */
+  margin: auto;
+
 }

@@ -1,1 +1,2 @@
-- Center icon and text
+- Finish selector wheel
+- Introduce quiz logic
