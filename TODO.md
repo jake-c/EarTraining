@@ -1,2 +1,6 @@
 - Finish selector wheel
 - Introduce quiz logic
+- Note button seems a bit unnecessary
+- Same with sidebar indicator
+- Find audio assets to use, howler is an audio player, not an audio pack library
+  can

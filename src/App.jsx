@@ -1,6 +1,6 @@
 // import SideBarItem from "./components/SideBarItem";
 import SideBar from "./components/SideBar";
-import IntervalSelectorWheel from "./components/IntervalSelectorWheel";
+import TonicIntervalQuiz from "./components/TonicIntervalQuiz";
 const App = () => {
   return (
   <>
@@ -8,7 +8,8 @@ const App = () => {
       <SideBar/>
       <div className="main-content">
         
-        <IntervalSelectorWheel/>
+        <TonicIntervalQuiz/>
+        
       </div>
     </div>  
   </>
