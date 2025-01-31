@@ -4,7 +4,7 @@ import SideBarItemIndicator from "./SideBarItemIndicator";
 const SideBarItem = (props) => {
 
     //Properties passed in to the component in parent component. Props is an object
-    const { icon, label, handleClick, isActive } = props
+    const { icon, label, handleClick, isActive } = props;
 
     return (
         <div className="sidebar-item">

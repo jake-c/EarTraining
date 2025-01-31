@@ -5,3 +5,6 @@
 - Find audio assets to use, howler is an audio player, not an audio pack library
   can
 - gain deeper understanding of useref
+- REPLAY CURRENT NOTE BUTTON
+- Light up indicator if right/wrong
+- Only selectable after 3s
